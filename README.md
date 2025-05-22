@@ -1,4 +1,4 @@
-##﻿# Incremental Game
+#﻿# Incremental Game
 
 
 This C++ program simulates a turn-based game between Alice and Bob played over multiple test cases. For each test case, the integers `X`, `Y`, and `K` are input, representing the maximum number of coins Alice can remove from two piles (`X` from pile A and `Y` from pile B), and `K` being the maximum number Alice is allowed to remove in her first move. Alice makes the first move by picking any number of coins from either pile, as long as the number is ≤ `K`. After that, Bob must respond by picking a strictly higher number of coins than Alice's move, from either pile. This continues with increasing move sizes.
